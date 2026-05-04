@@ -1,0 +1,12 @@
+{
+    "image_name": "propval-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.12-slim",
+    "test_input": {
+        "area_sqft": 1842.3,
+        "bedrooms": 3,
+        "floor_level": 14,
+        "locality_score": 6.9
+    },
+    "prediction": 41069.836232369125
+}

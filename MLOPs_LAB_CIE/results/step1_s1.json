@@ -1,0 +1,20 @@
+{
+    "experiment_name": "propval-rental-price",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 6100.104005678125,
+            "rmse": 7580.87142567279,
+            "r2": 0.7718722402273379
+        },
+        {
+            "name": "RandomForest",
+            "mae": 10055.747560000007,
+            "rmse": 10809.47541230937,
+            "r2": 0.5361803862671493
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "rmse",
+    "best_metric_value": 7580.87142567279
+}
